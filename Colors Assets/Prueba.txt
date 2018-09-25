@@ -1,0 +1,51 @@
+﻿ENTRADAS;;
+Alitas de Pollo(6 unidades);10300;
+Dedos de Mozzarella;10700;
+Rustic Sampler;9100;
+Aros de Cebolla;8900;
+HAMBURGUESAS;;
+Peperonata;18800;21800
+Manchego Cheese;17900;20900
+Addictions;15900;18900
+Sabanna;18800;21800
+Bacon;19900;22900
+Onion;17800;20800
+Delicious;17300;20300
+Clásica;9900;
+Vegetariana Sabanna;14700;
+Vegetariana Onion;15200;
+EXTRAS;;
+Champiñon;1500;
+Tocineta;1500;
+Jamón Serrano;1500;
+Queso Amarillo;1500;
+Queso Manchego;1500;
+Queso Arepero;1500;
+Queso Azul;1500;
+PLATOS;;
+Alitas de Pollo(12 Unidades);15300;
+Alitas de Pollo(16 Unidades);18800;
+Ensalada Cesar;14800;
+CAFES;;
+Espresso;2500;
+Espresso Doble;5000;
+Capuccino;5200;
+Capuccino Doble;7700;
+Latte;5200;
+Latte Doble;7700;
+Toddy Latte;6200;
+MocaBoom;4500;
+Espresso Limón;3500;
+Sarrapiando;3950;
+Affogato;5950;
+Americano;3000;
+Cold Brow Frutal;10500;
+MALTEADAS;;
+Oreo;9000;16000
+Brownie;9000;16000
+Galletas;9000;16000
+Mantecado;9000;16000
+Café;9000;16000
+Fresa;9000;16000
+POSTRES;;
+Bronwnies;6000;

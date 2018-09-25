@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (C) Luis Rogelio Reyes Hernandez.
+${licensePrefix}All rights reserved.
+<#if licenseLast??>
+${licenseLast}
+</#if>

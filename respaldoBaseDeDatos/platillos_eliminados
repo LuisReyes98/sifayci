@@ -1,0 +1,46 @@
+PRAGMA foreign_keys = 0;
+
+CREATE TABLE temp_table AS SELECT * FROM Platillos_Eliminados;
+DROP TABLE Platillos_Eliminados;
+CREATE TABLE Platillos_Eliminados (
+    categoria               TEXT    REFERENCES Platillos (categoria),
+    nombre                  TEXT    REFERENCES Platillos (nombre),
+    precio0                 REAL    REFERENCES Platillos (precio0),
+    precio1                 REAL    REFERENCES Platillos (precio1),
+    precio2                 REAL REFERENCES Platillos (precio2),
+    precio3                 REAL REFERENCES Platillos (precio3),
+    inventariado            INTEGER REFERENCES Platillos (inventario),
+    id                      INTEGER REFERENCES Platillos (id),
+    es_hamburguesa          INTEGER REFERENCES Platillos (es_hamburguesa),
+    cantidad_en_inventario  INTEGER REFERENCES Platillos (cantidad_en_inventario),
+    es_hamburguesa_de_100gr INTEGER REFERENCES Platillos (es_hamburguesa_de_100gr)
+);
+INSERT INTO Platillos_Eliminados (
+                                     categoria,
+                                     nombre,
+                                     precio0,
+                                     precio1,
+                                     precio2,
+                                     precio3,
+                                     inventariado,
+                                     id,
+                                     es_hamburguesa,
+                                     cantidad_en_inventario,
+                                     es_hamburguesa_de_100gr
+                                 )
+                                 SELECT categoria,
+                                        nombre,
+                                        precio0,
+                                        precio1,
+                                        precio2,
+                                        precio3,
+                                        inventariado,
+                                        id,
+                                        es_hamburguesa,
+                                        cantidad_en_inventario,
+                                        es_hamburguesa_de_100gr
+                                   FROM sqlitestudio_temp_table;
+
+DROP TABLE sqlitestudio_temp_table;
+
+PRAGMA foreign_keys = 1;
